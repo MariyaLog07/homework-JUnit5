@@ -32,7 +32,7 @@ public class ParametrizedTest extends TestBase {
     @CsvSource(value = {
             "свитшот; мужской",
             "свитер; женский",
-            "худи; женский"
+            "худи; мужской"
     }, delimiter = ';')
     @ParameterizedTest(name = "Search with CsvSource: {0}, {1}")
     void searchByCsvSource(String item, String property) {
