@@ -28,9 +28,9 @@ public class AsosPage  {
         return this;
     }
 
-    public AsosPage checkResult(String o) {
+    public AsosPage checkResult(String s) {
         searchResult.shouldBe(visible);
-        searchResult.find(byText(o));
+        searchResult.find(byText(s));
         return this;
     }
 }
